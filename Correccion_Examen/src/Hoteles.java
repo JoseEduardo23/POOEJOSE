@@ -87,7 +87,7 @@ public class Hoteles {
         this.Num_habitaciones = sc.nextInt();
         System.out.print("Ingrese el precio: ");
         this.precio = sc.nextFloat();
-        metodoImprimir();
+        metodoImprimir(); //Bienvenidos
     }
  }
 
