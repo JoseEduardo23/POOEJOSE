@@ -65,7 +65,7 @@ public class Hoteles {
          Scanner sc=new Scanner(System.in);
          System.out.print("Nuevo nombre del hotel: ");
          this.nombre =  sc.nextLine();
-         System.out.print("Nueva direccion: ");
+         System.out.print("Nueva direccion: ");//Hola buenas carnes
          this.Direccion = sc.nextLine();
          System.out.print("Cantidad de estrellas: ");
          this.Estrellas = sc.nextInt();
