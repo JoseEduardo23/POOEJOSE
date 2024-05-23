@@ -81,7 +81,7 @@ public class Hoteles {
         this.nombre = sc.nextLine();
         System.out.print("Nueva dirección: ");
         this.Direccion = sc.nextLine();
-        System.out.print("Cantidad de estrellas: ");
+        System.out.print("Cantidad de estrellas: ");//yuggyuguyg
         this.Estrellas = sc.nextInt();
         System.out.print("Numero de habitaciones del hotel: ");
         this.Num_habitaciones = sc.nextInt();
