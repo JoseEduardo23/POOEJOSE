@@ -19,6 +19,5 @@ public class Main {
         System.out.println("El Perimetro del decagono es de: " + figura7.calcularPerimetro());
         System.out.println("------------------------------------------------------------------");
         //Hola buenas nalgas, digo dias
-        //Configuraciones
     }
 }
