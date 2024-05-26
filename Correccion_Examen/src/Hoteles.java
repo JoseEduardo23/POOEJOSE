@@ -6,6 +6,7 @@ public class Hoteles {
     int Num_habitaciones;
     float precio;
 
+    //  Constructores
     public Hoteles() {}
 
     public Hoteles(String nombre, String direccion, int estrellas, int num_habitaciones, float precio) {
@@ -16,6 +17,7 @@ public class Hoteles {
         this.precio = precio;
     }
 
+    // Getters y setters
     public String getNombre() {
         return nombre;
     }
@@ -56,6 +58,7 @@ public class Hoteles {
         this.precio = precio;
     }
 
+    //Métodos personalizados
 
     public void metodoImprimir(){
          System.out.println("Nombre: " + this.getNombre() + " Direccion: " + this.getDireccion() + " Estrellas: " + this.getEstrellas() + " Numero de Habitaciones: " + this.getNum_habitaciones() + "Precio" + this.getPrecio());
